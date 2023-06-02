@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Redirection des requêtes POST pour connecter un capitaine
+RewriteRule ^capitaine/login/?$ api/capitaine/login.php [QSA,L]
+
+# --------------------------------------------------------------------------------------------
+
+# Redirection des requêtes GET pour récupérer la traversée d'un capitaine
+RewriteRule ^traversee/capitaine/([0-9]+)/?$ api/traversee/capitaine.php?id=$1 [QSA,L]
+
+# Redirection des requêtes PUT/PATCH pour modifier une ou plusieurs traversées
+RewriteRule ^traversee/edit/?$ api/traversee/edit.php?id=$1 [QSA,L]

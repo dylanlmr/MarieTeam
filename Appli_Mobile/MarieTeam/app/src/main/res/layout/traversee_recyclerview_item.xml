@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTraversee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traversée n° 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            app:drawableEndCompat="@drawable/success"/>
+
+        <TextView
+            android:id="@+id/textViewDebut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Du 99/99/99 à 99:99"
+            android:textSize="14sp"
+            android:textColor="#808080"/>
+
+        <TextView
+            android:id="@+id/textViewFin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Au 99/99/99 à 99:99"
+            android:textSize="14sp"
+            android:textColor="#808080"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/textViewEtatTraversee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="État de la traversée : En cours"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewEtatMer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="État de la mer : Mer agitée"
+            android:textSize="14sp"
+            android:textColor="#808080"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewCommentaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Commentaire : Un commentaire"
+            android:textSize="14sp"
+            android:textColor="#808080"/>
+
+    </LinearLayout>
+
+</LinearLayout>

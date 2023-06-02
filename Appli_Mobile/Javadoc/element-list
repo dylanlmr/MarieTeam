@@ -1,0 +1,12 @@
+fr.xkgd.marieteam
+fr.xkgd.marieteam.adapter
+fr.xkgd.marieteam.adapter.serialization
+fr.xkgd.marieteam.api
+fr.xkgd.marieteam.api.service
+fr.xkgd.marieteam.data.local.dao
+fr.xkgd.marieteam.data.local.database
+fr.xkgd.marieteam.data.repository
+fr.xkgd.marieteam.model
+fr.xkgd.marieteam.networking
+fr.xkgd.marieteam.ui.view
+fr.xkgd.marieteam.ui.viewmodel

@@ -1,0 +1,6 @@
+module:fr.xkgd.marieteam
+fr.xkgd.marieteam
+fr.xkgd.marieteam.controller
+fr.xkgd.marieteam.customexception
+fr.xkgd.marieteam.database
+fr.xkgd.marieteam.model

@@ -12,17 +12,17 @@
 
 ### Features 🚀
 
-- 🌐 **Connectivity**: The Android application is designed to connect to a remote database using Retrofit. This enables seamless communication with the server to fetch data and perform necessary operations.
+- 🌐 **Connectivity** : The Android application is designed to connect to a remote database using Retrofit. This enables seamless communication with the server to fetch data and perform necessary operations.
 
-- 🔄 **Data Synchronization**: The application synchronizes data between the local and remote databases. Once the user modifies the state of passenger boat crossings (e.g., in progress, completed), the changes are propagated to the local database. If an internet connection is available, the application syncs the updated data with the remote database.
+- 🔄 **Data Synchronization** : The application synchronizes data between the local and remote databases. Once the user modifies the state of passenger boat crossings (e.g., in progress, completed), the changes are propagated to the local database. If an internet connection is available, the application syncs the updated data with the remote database.
 
-- 📊 **Database Management**: The application utilizes Room, an Android library for local database management. It efficiently stores the retrieved data from the remote database, providing offline access and faster performance.
+- 📊 **Database Management** : The application utilizes Room, an Android library for local database management. It efficiently stores the retrieved data from the remote database, providing offline access and faster performance.
 
-- ✏️ **State Modification**: The Android app allows users to modify the state of boat crossings. This feature enables updating the status of crossings to reflect their progress or completion, ensuring accurate tracking and management.
+- ✏️ **State Modification** : The Android app allows users to modify the state of boat crossings. This feature enables updating the status of crossings to reflect their progress or completion, ensuring accurate tracking and management.
 
-- 📶 **Network Connectivity Handling**: The application is equipped with network connectivity handling to ensure seamless data transmission. It detects the availability of an internet connection and adjusts the synchronization process accordingly, ensuring a smooth user experience.
+- 📶 **Network Connectivity Handling** : The application is equipped with network connectivity handling to ensure seamless data transmission. It detects the availability of an internet connection and adjusts the synchronization process accordingly, ensuring a smooth user experience.
 
-- 🧩 **User Interface**: The app incorporates a user-friendly interface, offering intuitive navigation and interactions. The design follows the principles of modern Android development, leveraging Java as the programming language.
+- 🧩 **User Interface** : The app incorporates a user-friendly interface, offering intuitive navigation and interactions. The design follows the principles of modern Android development, leveraging Java as the programming language.
 
 ### Prerequisites 🛠️
 
@@ -62,13 +62,13 @@
 
 ### Features 🚀
 
-- 🌐 **Database Connectivity**: The Java desktop application connects to a remote database using JDBC (Java Database Connectivity). This enables seamless communication with the database server, allowing the application to perform CRUD operations (Create, Read, Update, Delete) on passenger boats' data.
+- 🌐 **Database Connectivity** : The Java desktop application connects to a remote database using JDBC (Java Database Connectivity). This enables seamless communication with the database server, allowing the application to perform CRUD operations (Create, Read, Update, Delete) on passenger boats' data.
 
-- 📝 **Boat Management**: The application provides functionalities to add, modify, and delete passenger boats. Users can enter information such as the boat's name, image, speed, and equipment details. These details are stored in the remote database, ensuring persistent data storage.
+- 📝 **Boat Management** : The application provides functionalities to add, modify, and delete passenger boats. Users can enter information such as the boat's name, image, speed, and equipment details. These details are stored in the remote database, ensuring persistent data storage.
 
-- 📂 **PDF Export**: The application includes a feature to export selected passenger boats to PDF format. Users can choose specific boats, and the application generates a PDF document containing their relevant information, such as name, image, speed, and equipment. This allows users to conveniently share or print boat details.
+- 📂 **PDF Export** : The application includes a feature to export selected passenger boats to PDF format. Users can choose specific boats, and the application generates a PDF document containing their relevant information, such as name, image, speed, and equipment. This allows users to conveniently share or print boat details.
 
-- 🧩 **User Interface**: The desktop application features a user-friendly interface, providing a seamless experience for managing passenger boats. Users can easily navigate through different functionalities, add or modify boat details, export data to PDF, and perform other operations efficiently.
+- 🧩 **User Interface** : The desktop application features a user-friendly interface, providing a seamless experience for managing passenger boats. Users can easily navigate through different functionalities, add or modify boat details, export data to PDF, and perform other operations efficiently.
 
 ### Prerequisites 🛠️
 

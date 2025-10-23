@@ -96,7 +96,7 @@ Contributions to this project are welcome! If you would like to improve this cal
 
 ## Authors ✨
 
-[@XKGD](https://github.com/XKGD)
+[@XKGD](https://github.com/dylanlmr)
 
 ## License 📄
 
